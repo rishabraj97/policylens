@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+sqlalchemy>=2.0.35
+python-multipart>=0.0.12
+PyMuPDF>=1.24.0
+pytest>=8.3.0
+httpx>=0.27.0
+# Step 3: AI provider libraries (install the one matching your AI_PROVIDER setting)
+google-generativeai>=0.8.0
+# openai>=1.50.0  # Uncomment if using AI_PROVIDER=openai
+# Step 6: RAG embeddings (local, no external vector DB required)
+sentence-transformers>=3.0.0
+numpy>=1.26.0

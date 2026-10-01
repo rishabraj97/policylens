@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.sqlite3
+*.db
+
+# PolicyLens Uploads & Generated Embeddings
+uploads/*
+!uploads/.gitkeep
+embeddings/*
+!embeddings/.gitkeep
+*.npy
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.vite/

@@ -1,0 +1,10 @@
+PolicyLens Compliance Test Policy
+
+1. Overview
+Organizations processing personal data must maintain an updated privacy notice.
+The privacy notice must be reviewed annually.
+
+2. Department Responsibilities
+The Legal Department is responsible for maintaining the notice.
+The IT Security team is responsible for validating encryption standards.
+All customer transaction records must be retained for at least 7 years.
